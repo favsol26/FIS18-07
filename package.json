@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "prestart": "npm install",
+    "prestart": "npm audit fix",
     "start": "node index.js",
     "build": "ng build",
     "test": "mocha --timeout 10000",
